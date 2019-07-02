@@ -21,7 +21,7 @@ func FillOption(kvopt []OptionItem) (opt *Option, llv []log.Level, err error) {
 	opt = &Option{
 		ForceColors:     true,
 		FullTimestamp:   true,
-		TimestampFormat: "0000-00-00 00:00:00",
+		TimestampFormat: "2006-01-02 15:04:05",
 	}
 	llv = log.AllLevels
 
